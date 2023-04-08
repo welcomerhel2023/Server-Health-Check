@@ -4,3 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+    - name: user ID creation
+      user:
+        name: asif
+        state: present
